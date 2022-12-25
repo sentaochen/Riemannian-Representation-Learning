@@ -1,12 +1,7 @@
 # Riemannian Representation Learning (RRL)
 
-This repository contains a paper with supplementary material for the deep domain adaptation approach DNA, and a pytorch implementation of the DNA approach.
 
-In a nutshell, DNA solves the joint distribution mismatch problem in deep domain adaptation for large scale image recognition. To this end, it exploits a Convolutional Neural Network (CNN) to match the source and target joint distributions in the network representation space under the Relative Chi-Square (RCS) divergence. The following figure illustrates this deep joint distribution matching idea.   
-
-
-This repository provides the Pytorch code for the work "Domain Generalization by Joint-Product Distribution Alignment" published in Pattern Recognition, 2022. In this work, we study the non-identically distributed supervised learning problem, where the training data are sampled from multiple different (probability）distributions, while the test data are governed by another different yet related distribution. We design a Joint-Product Distribution Alignment (JPDA) approach that aligns a joint distribution and a product distribution to tackle the distribution difference (see the illustration below), with (1) the loss function being the Relative Chi-Square (RCS) divergence, (2) the hypothesis space being the neural network transformation, and (3) the learning algorithm being the minibatch Stochastic Gradient Descent (minibatch SGD).
-
+This repository provides the Pytorch code for the work "Riemannian Representation Learning for Multi-Source Domain Adaptation" published in Pattern Recognition, 2023. In this work, we study the multi-source domain adaptation problem (see Fig.1), and propose the Riemannian Representation Learning (RRL) approach to addressing the problem. Guided by our theoretical analysis, our approach trains a neural network model by minimizing (i) the average empirical Hellinger distance with respect to the network representation function, and (ii) the average empirical source error with respect to the network model. The Hellinger distance bears strong connection to the Riemannian metric defined on the statistical manifold and therefore well reflects the geometrical distance between probability distributions (see Fig.2).
 
 <img src="Problem.jpg" width="50%">
 
