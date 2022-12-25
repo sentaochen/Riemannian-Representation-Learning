@@ -37,13 +37,13 @@ python demo.py --dataset officehome --source Product   --target Clipart   --phas
 
 For more details of this multi-source domain adaptation approach,  please refer to the following PR work: 
 
-@article{Chen2023Riemannian,
-  author = {Sentao Chen and Lin Zheng and Hanrui Wu},
-  journal = {Pattern Recognition},
-  title = {Riemannian Representation Learning for Multi-Source Domain Adaptation},
-  year = {2023},
-  pages = {109271},
-  doi = {https://doi.org/10.1016/j.patcog.2022.109271}
-}
+@article{Chen2023Riemannian,  
+  author={Sentao Chen and Lin Zheng and Hanrui Wu},  
+  journal={Pattern Recognition},   
+  title={Riemannian Representation Learning for Multi-Source Domain Adaptation},   
+  year={2023},   
+  pages={109271},  
+  doi={https://doi.org/10.1016/j.patcog.2022.109271}  
+  }
   
 The Pytorch code is currently maintained by Lisheng Wen. If you have any questions regarding the codes, please contact Lisheng Wen via the email wenlisheng992021@163.com.
