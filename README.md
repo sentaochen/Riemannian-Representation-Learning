@@ -8,9 +8,9 @@ In a nutshell, DNA solves the joint distribution mismatch problem in deep domain
 This repository provides the Pytorch code for the work "Domain Generalization by Joint-Product Distribution Alignment" published in Pattern Recognition, 2022. In this work, we study the non-identically distributed supervised learning problem, where the training data are sampled from multiple different (probability）distributions, while the test data are governed by another different yet related distribution. We design a Joint-Product Distribution Alignment (JPDA) approach that aligns a joint distribution and a product distribution to tackle the distribution difference (see the illustration below), with (1) the loss function being the Relative Chi-Square (RCS) divergence, (2) the hypothesis space being the neural network transformation, and (3) the learning algorithm being the minibatch Stochastic Gradient Descent (minibatch SGD).
 
 
-<img src="Problem.jpg" width="80%">
+<img src="Problem.jpg" width="60%">
 
-<img src="Manifold.jpg" width="80%">
+<img src="Manifold.jpg" width="60%">
 
 ##### Tested on
 * Python 3.8
