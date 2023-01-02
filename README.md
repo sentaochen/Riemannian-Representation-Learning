@@ -36,8 +36,10 @@ For more details of this multi-source domain adaptation approach,  please refer 
   author={Sentao Chen and Lin Zheng and Hanrui Wu},  
   journal={Pattern Recognition},   
   title={Riemannian Representation Learning for Multi-Source Domain Adaptation},   
-  year={2023},   
+  year={2023},  
+  volume = {137},
   pages={109271},  
+  issn = {0031-3203},
   doi={https://doi.org/10.1016/j.patcog.2022.109271}  
   }
   
