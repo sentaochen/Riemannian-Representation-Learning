@@ -39,7 +39,7 @@ For more details of this multi-source domain adaptation approach,  please refer 
   year={2023},  
   volume = {137},
   pages={109271},  
-  issn = {0031-3203},
+  issn = {0031-3203}, 
   doi={https://doi.org/10.1016/j.patcog.2022.109271}  
   }
   
