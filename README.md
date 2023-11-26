@@ -25,8 +25,8 @@ The folder structure required (e.g OfficeHome)
 ##### How to run
 
 ```bash
-python demo.py --dataset officehome --source Art Product Real --target Clipart --phase pretrain --gpu 0 --net resnet --presteep 20000 --message "Riemannian Representation Learning" --lr 0.01 --lr_mult 0.1 0.1 1 1 
-python demo.py --dataset officehome --source Art Product Real --target Clipart --phase train --gpu 0 --net resnet --steps 200000 --start_update_step 2000 --update_interval 2000 --message "Riemannian Representation Learning" --patience 45 --lr 0.01 --lr_mult 0.1 0.1 1 1 
+python demo.py --dataset OfficeHome --source Art Product Real --target Clipart --phase pretrain --gpu 0 --net resnet --presteep 20000 --message "Riemannian Representation Learning" --lr 0.01 --lr_mult 0.1 0.1 1 1 
+python demo.py --dataset OfficeHome --source Art Product Real --target Clipart --phase train --gpu 0 --net resnet --steps 200000 --start_update_step 2000 --update_interval 2000 --message "Riemannian Representation Learning" --patience 45 --lr 0.01 --lr_mult 0.1 0.1 1 1 
 ```
 
 
