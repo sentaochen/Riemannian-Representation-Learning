@@ -67,7 +67,7 @@ def load_data_for_MultiDA(args, root_dir, dataset, src_domains , tar_domain, pha
             'val': get_val_transformer(dataset, crop_size),
             'test': get_val_transformer(dataset, crop_size)
             }
-    list_root_dir = os.path.join(root_dir, 'list', dataset)
+    list_root_dir = os.path.join(root_dir, dataset, 'list')
     data_root_dir = os.path.join(root_dir, dataset)
     unlabeled_target_list = os.path.join(list_root_dir, '{}.txt'.format(tar_domain))
 
