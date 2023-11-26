@@ -58,10 +58,6 @@ def finetune_for_mutil_UDA_sep(args, model, optimizer, dataloaders):
             loss_tar,acc_tar = test(model, dataloaders['tar_test'])
             print('one test time: {:.1f}s'.format(time.time()-test_time))
 
-            if args.save_check:
-                torch.save(model.state_dict(), '{}/best(PT)_{}_{}-{}.pth'.format(check_path, args.net, args.source, step//500))
-
-
             print('record {}'.format(record_file))
             with open(record_file, 'a') as f:
                 f.write('Step {} acc_tar {:.4f}\n'.format(step, acc_tar))
