@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default='officehome',
+parser.add_argument('--dataset', type=str, default='OfficeHome',
                     help='the name of dataset')
 parser.add_argument('--source', type=str, nargs='+', default=['Art', 'Clipart', 'Real'],
                     help='source domain')
@@ -88,12 +88,12 @@ gl.set_value('DEVICE', DEVICE)
 
 
 domain_name = {
-    'officehome':  ['Art', 'Clipart', 'Real', 'Product'],
+    'OfficeHome':  ['Art', 'Clipart', 'Real', 'Product'],
 }[args.dataset]
 
 class_num = {
 
-    'officehome':65,
+    'OfficeHome':65,
 
 }[args.dataset]
 
