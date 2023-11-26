@@ -28,7 +28,7 @@ def H_Distance(FX,y,l,sigma=None,lamda=1e-2,device=torch.device('cpu')):
     FXt,yt = FX[l==target_domain_idx],y[l==target_domain_idx]
     nt = len(yt)
     div = 0.0
-    for dl in domain_label[1:]:
+    for dl in domain_label[:-1]:
         FXs,ys = FX[l==dl],y[l==dl]
         ns = len(ys)
         FXst,yst = torch.cat((FXs,FXt),dim=0),torch.cat((ys,yt),dim=0)
