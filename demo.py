@@ -54,8 +54,6 @@ parser.add_argument('--update_interval', type=int, default=1000,
                     help='how many batches to wait before updating pseudo labels(default: 1000)')
 parser.add_argument('--start_update_step', type=int, default=2000,
                     help='how many batches to wait before the first time to update the pseudo labels(default: 2000)')
-parser.add_argument('--save_check', type=bool, default=True,
-                    help='save checkpoint or not(default: True)')
 parser.add_argument('--patience', type=int, default=10,
                     help='early stopping to wait for improvment before terminating. (default: 12 (6000 iterations))')
 parser.add_argument('--early', type=bool, default=True,
