@@ -157,8 +157,8 @@ def train_for_Multi(args, model, optimizer, dataloaders, domain_labels):
                 dataloaders['tar_train_ul'].dataset.update_pseudo_labels(pseudo_labels)
                 tar_data_ul = iter(dataloaders['tar_train_ul'])
 
-            if args.early:
-                if step >= 20000 and acc_tar > best_acc:
+            if step >= 20000 and args.early:
+                if  acc_tar > best_acc:
                     best_acc = acc_tar
                     counter = 0
 
