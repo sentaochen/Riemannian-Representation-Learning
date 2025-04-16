@@ -1,7 +1,10 @@
 # Riemannian Representation Learning (RRL)
 
 
-This repository provides the Pytorch code for the work "Riemannian Representation Learning for Multi-Source Domain Adaptation" published in Pattern Recognition, 2023. In this work, we study the multi-source domain adaptation problem (see Fig.1), and propose the Riemannian Representation Learning (RRL) approach to addressing the problem. Guided by our theoretical analysis, our approach trains a neural network model by minimizing (i) the average empirical Hellinger distance with respect to the network representation function, and (ii) the average empirical source error with respect to the network model. The Hellinger distance bears strong connection to the Riemannian metric defined on the statistical manifold and therefore well reflects the geometrical distance between probability distributions (see Fig.2).
+This repository provides the Pytorch code for the work "Riemannian Representation Learning for Multi-Source Domain Adaptation" published in Pattern Recognition, 2023. The video for introducing this work is available at the Bilibili website with the link https://www.bilibili.com/video/BV1t3oPY3Ee4/?spm_id_from=333.337.search-card.all.click
+
+
+In this work, we study the multi-source domain adaptation problem (see Fig.1), and propose the Riemannian Representation Learning (RRL) approach to addressing the problem. Guided by our theoretical analysis, our approach trains a neural network model by minimizing (i) the average empirical Hellinger distance with respect to the network representation function, and (ii) the average empirical source error with respect to the network model. The Hellinger distance bears strong connection to the Riemannian metric defined on the statistical manifold and therefore well reflects the geometrical distance between probability distributions (see Fig.2).
 
 <img src="Problem.jpg" width="50%">
 
