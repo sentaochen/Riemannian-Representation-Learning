@@ -46,4 +46,4 @@ For more details of this multi-source domain adaptation approach,  please refer 
   doi={https://doi.org/10.1016/j.patcog.2022.109271}   
   }
   
-The Pytorch code is currently maintained by Lisheng Wen. If you have any questions regarding the code, please contact Lisheng Wen via the email lishengwenmail@126.com.
+The PyTorch code is currently maintained by Lisheng Wen. If you have any questions regarding the code, please contact Lisheng Wen via the email lishengwenmail@126.com.
